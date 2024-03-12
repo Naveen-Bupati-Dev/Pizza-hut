@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="./signin.css" />
+</head>
+<body>
+    <p>Sigin in form</p>
+    <div id="signin-form"> 
+        
+        <fieldset>
+
+        <legend>Singn up form</legend> 
+        
+        <form>
+        <table style="width:100%;"> 
+
+         <tr>   
+         <td><label for="Fname">Name</label></td>  
+         <td><input type="text" id="Fname" placeholder="Enter your Name" name="Name"/></td>    
+         </tr> 
+ 
+        <tr> 
+        <td> <label for="email">Email id</labal> </td>  
+        <td>  <input type="email" id="email" placeholder="Enter your email"   required name="Email"/> </td>
+        </tr>   
+         
+        
+        <tr> 
+         <td><label for="Pno">Phone Number</label></td>
+        <td><input type="tel" id="Pno" placeholder="enter your mobile number"   required pattern="[0-9]{1-10}"/></td> 
+        </tr>
+
+        <tr>
+            <td><label for="psd">Password</label></td>
+             <td><input type="password" id="psd" placeholder="enter your password" name="password" required/></td>    
+        </tr>
+
+        <tr>
+            <td><label for="psd">confrimPassword</label></td>
+             <td><input type="password" id="Cpsd" placeholder="Confrim your password" name="Cpassword" required/></td>    
+        </tr>
+      
+        <tr>
+            <td colspan="2"><button>Submit</button></td>
+        </tr>
+        
+    </table>
+    </fieldset>
+    </form>
+</div>
+</body>
+</html>
